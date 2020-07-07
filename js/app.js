@@ -1,9 +1,4 @@
-// const vaccineCardController =  new VaccineController();
-// const patientController = new PatientController();
-const pacienteController =  new PacienteController();
-const dashboardController = new DashboardController()
-const loginController = new LoginController(pacienteController);
-const navbarController = new NavbarController()
+const produtoController =  new ProdutoController();
 
 var body = document.querySelector("body");
 body.onload = function () {
@@ -18,3 +13,5 @@ body.onload = function () {
     }
     // vaccineCardController.loadVaccines();
 }
+
+
